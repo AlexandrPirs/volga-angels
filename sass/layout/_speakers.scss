@@ -1,0 +1,102 @@
+.speakers {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding-top: 50px;
+	padding-bottom: 25px;
+	background-color: #fff;
+	.top__title {
+		font-size: 48px;
+		font-weight: bold;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		text-align: center;
+		text-transform: uppercase;
+		padding: 0;
+		margin: 0;
+	}
+	.top__text {
+		display: block;
+		width: 60%;
+		margin: 0 auto;
+		margin-bottom: 50px;
+		font-weight: normal;
+		font-family: 'Open Sans', sans-serif;
+		text-align: center;
+	}
+	.item__speakers {
+		position: relative;
+		margin-bottom: 50px;
+		.img__speakers {
+			position: relative;
+			width: 100%;
+			height: 250px;
+			border-radius: 50%;
+			border: 5px solid #fff;
+			-webkit-transition: all .45s;
+			-o-transition: all .45s;
+			transition: all .45s;
+			&:hover {
+				cursor: pointer;
+				border: 5px solid #b88f40;
+				-webkit-transform: scale(1.05);
+				-moz-transform: scale(1.05);
+				-o-transform: scale(1.05);
+			}
+			&:hover .img__speakers__company {
+				opacity: 1;
+			}
+			img {
+				width: 100%;
+				height: 100%;
+				border-radius: 50%;
+			}
+			.img__speakers__company {
+				opacity: 0;
+				position: relative;
+				margin: 0 auto;
+				margin-top: -60px;
+				width: 100px;
+				height: 40px;
+				text-align: center;
+				line-height: 36px;
+				border: 2px solid #b88f40;
+				color: #b88f40;
+				-webkit-transition: all .45s;
+				-o-transition: all .45s;
+				transition: all .45s;
+			}
+		}
+		.info__speakers {
+			position: relative;
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			margin-top: 10px;
+			.title {
+				display: block;
+				font-weight: bold;
+				font-family: 'Open Sans', sans-serif;
+				font-size: 22px;
+				text-transform: uppercase;
+				letter-spacing: 2.5px;
+			}
+			i {
+				margin: 0 auto;
+				width: 36px;
+				height: 36px;
+				font-size: 22px;
+				line-height: 32px;
+				color: #b88f40;
+				border: 2px solid #b88f40;
+				border-radius: 50%;
+			}
+			.text {
+				display: block;
+				text-align: center;
+				font-weight: normal;
+				font-family: 'Open Sans', sans-serif;
+			}
+		}
+	}
+}
