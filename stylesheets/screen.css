@@ -5565,8 +5565,8 @@ button.swiper-pagination-bullet {
 /* line 114, ../sass/layout/_header.scss */
 .header .intro .slogan-block img {
   margin-bottom: 30px;
-  max-width: 660px;
-  max-height: 175px;
+  max-width: 154px;
+  max-height: 180px;
   width: 100%;
   height: 100%;
 }
@@ -6200,6 +6200,34 @@ button.swiper-pagination-bullet {
   background: #b88f40;
   color: #FFF;
 }
+/* line 100, ../sass/layout/_price.scss */
+.price .button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 80px;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  width: 260px;
+  height: 47px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  opacity: 1;
+  transition: opacity 0.4s;
+  border: 2px solid #b88f40;
+  line-height: 45px;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+/* line 121, ../sass/layout/_price.scss */
+.price .button:hover {
+  background: #b88f40;
+  color: #FFF;
+}
 
 /* line 1, ../sass/layout/_partners.scss */
 .partners {
@@ -6260,43 +6288,8 @@ button.swiper-pagination-bullet {
   margin-bottom: 70px;
 }
 /* line 17, ../sass/layout/_guests.scss */
-.guests .guests__item {
-  position: relative;
-  text-align: center;
-  margin-bottom: 30px;
-}
-/* line 21, ../sass/layout/_guests.scss */
-.guests .guests__item .img__box {
-  position: relative;
-  text-align: center;
-  margin-bottom: 20px;
-}
-/* line 25, ../sass/layout/_guests.scss */
-.guests .guests__item .img__box img {
-  transition: all 0.3s ease 0s;
-}
-/* line 27, ../sass/layout/_guests.scss */
-.guests .guests__item .img__box img:hover {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-/* line 34, ../sass/layout/_guests.scss */
-.guests .guests__item .name__guests {
-  display: block;
-  font-weight: bold;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 22px;
-  text-transform: uppercase;
-  letter-spacing: 2.5px;
-}
-/* line 42, ../sass/layout/_guests.scss */
-.guests .guests__item .info__guests {
-  margin-top: 10px;
-  display: block;
-  font-weight: normal;
-  font-family: 'Open Sans', sans-serif;
-  line-height: 20px;
+.guests iframe {
+  height: 520px;
 }
 
 /* line 1, ../sass/layout/_slider.scss */
@@ -6320,6 +6313,17 @@ button.swiper-pagination-bullet {
 .slider .swiper-container .swiper-slide img {
   width: 100%;
   height: 100%;
+}
+
+/* line 1, ../sass/layout/_map.scss */
+.map {
+  position: relative;
+}
+/* line 3, ../sass/layout/_map.scss */
+.map .content__map {
+  position: relative;
+  width: 100%;
+  height: 520px;
 }
 
 /* line 1, ../sass/layout/_footer.scss */
